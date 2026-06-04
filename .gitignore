@@ -1,0 +1,99 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+.DS_Store
+Thumbs.db
+
+# Android Studio
+.idea/
+.gradle
+*.iml
+*.iws
+*.ipr
+*.swp
+*~
+
+# Keystore Files
+*.jks
+*.keystore
+*.p12
+*.key
+
+# Firebase Config
+google-services.json
+FirebaseServiceAccountKey.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+
+# Testing
+.coverage/
+coverage.xml
+jacoco.xml
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Node modules (for Cloud Functions)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Kotlin/Java specific
+*.kt.bak
+*.class
+*.jar
+*.war
+*.rar
+
+# Package Files
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machines
+.vagrant/
+vagrantfile
+
+# Misc
+.classpath
+.project
+.pydevproject
+.settings/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
